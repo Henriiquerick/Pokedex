@@ -1,13 +1,17 @@
+//Intial instructions
 const pokemonName = document.querySelector('.pokemon_name');
 const pokemonNumber = document.querySelector('.pokemon_number');
 const pokemonImage = document.querySelector('.pokemon_image');
 
+//Forms
 const formResult = document.querySelector('.form');
 const inputResult = document.querySelector('.input_search');
 
+//Buttons
 const buttonPrev = document.querySelector('.btn-prev');
 const buttonNext = document.querySelector('.btn-next');
 
+//Initial pokemon
 let searchPokemon = 1;
 
 //get ID of the pokemon and return this

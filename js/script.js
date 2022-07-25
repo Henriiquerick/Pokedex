@@ -20,9 +20,9 @@ const fetchPokemon = async (pokemon) => {
     
     if(APIResponse.status === 200){
         const data = await APIResponse.json();
-        return data
+        return data;
     }
-}
+};
 //result of fetchPokemon and return pokemon into API
 const renderPokemon = async (pokemon) => {
     pokemonName.innerHTML = 'Loading...';
@@ -38,7 +38,7 @@ const renderPokemon = async (pokemon) => {
     else{
         pokemonImage.style.display = 'none';
         pokemonName.innerHTML = 'Not Found';
-        pokemonNumber.innerHTML = ''
+        pokemonNumber.innerHTML = '';
     }
 }
 //Inicialization of site
